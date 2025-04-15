@@ -1,0 +1,50 @@
+* {
+    box-sizing: border-box;
+    padding: 0;
+    margin: 0;
+}
+
+body {
+    background-color: rgba(228, 87, 167, 0.74);
+    color: brown;
+    padding-left: 150px;
+    padding-right: 150px;
+    font-size: larger;
+    font-family: 'Times New Roman', Times, serif;
+}
+
+nav {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: rgb(red, green, blue);
+    padding: 10px 0;
+     
+}
+
+.eli {
+    display: flex;
+    align-items: center;
+    gap: 20px;
+    list-style: none;
+     
+}
+
+.danism {
+    background-color: rgb(10, 168, 23);
+    color: white;
+    padding: 10px;
+    border-radius: 8px;
+    border: transparent;
+}
+
+.light{
+    background-color: white;
+    width: 500px;
+}
+
+.light-house {
+    padding:  30px;
+    display: flex;
+    justify-content: space-between;
+}
