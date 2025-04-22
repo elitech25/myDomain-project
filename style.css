@@ -33,18 +33,165 @@ nav {
 .danism {
     background-color: rgb(10, 168, 23);
     color: white;
-    padding: 10px;
+    padding: 15px;
     border-radius: 8px;
     border: transparent;
 }
 
 .light{
-    background-color: white;
+    background-color: transparent;
     width: 500px;
+    margin-top: 100px;
 }
 
 .light-house {
     padding:  30px;
+    display: flex;
+    justify-content: space-between;
+}
+
+.upright{
+    background-color: rgb(10, 168, 23);
+    color: white;
+    padding: 15px;
+    border-radius: 10px;
+    border: transparent;
+}
+
+.mega{
+    width: 340px;
+    padding: 5px;
+    
+}
+
+
+
+.day{
+    text-align: center;
+    background-color: darkblue;
+    color: white;
+    
+}
+  
+
+.down{
+    background-color: yellow;
+   text-align: center;
+   color: red;
+}
+
+
+.birds{
+    display: flex;
+    gap: 20px;
+
+}
+.my-data{
+    color: white;
+    background-color: orangered;
+    
+    font-size: 40px;
+    padding: 20px;
+    border-radius: 10px;
+}
+
+.bord{
+    border: 1px solid gray;
+    border-radius: 10px;
+    padding: 30px;
+    background-color: transparent;
+    transition-duration: 0.4s;
+}
+.bord:hover{
+    background-color: #01051E;
+}
+
+
+.mango{
+    color: white;
+    width: 400px
+    
+}
+
+.foot{
+    color: orangered;
+    font-size: 20px;
+    font-weight: bolder;
+}
+
+.total{
+    color: white;
+    font-size: 40px;
+    font-weight: bolder;    
+    margin: auto;
+    padding-bottom: 60px;
+}
+
+.logman{
+    background-color: orangered;
+    border-radius: 10px;
+    padding: 10px 30px 10px 30px;
+    font-weight: bolder;
+    color: white;
+    font-size: 20px;
+}
+
+.slay{
+    text-align: center;
+}
+.row{
+    display: flex;
+    text-align: center;
+    
+}
+
+
+
+.num{
+    background-color: rgb(12, 7, 11);
+    padding: 10px 30px 10px 30px;
+    border-radius: 10px;
+    color: white;
+    font-size: 60px;
+    transition-duration: 0.4s;
+}
+
+.num:hover {
+    background-color: orange;
+    color: white;
+}
+
+.error{
+    background-color: orange;
+}
+.wording {
+    color: white;
+    font-size: 30px;
+    font-weight: bold;
+}
+
+.far{
+    color: rgb(243, 9, 9)
+}
+
+
+
+.ben{
+    color: white;
+    padding-top: 100px;
+
+}
+
+.header-navbar {
+    position:fixed;
+    top:0;
+}
+
+.f{
+    color: red;
+}
+
+.liqour{
     display: flex;
     justify-content: space-between;
 }
