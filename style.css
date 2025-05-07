@@ -19,6 +19,7 @@ nav {
     align-items: center;
     background-color: rgb(red, green, blue);
     padding: 10px 0;
+    
      
 }
 
@@ -111,12 +112,15 @@ nav {
     color: white;
     width: 400px
     
+    
 }
 
 .foot{
     color: orangered;
     font-size: 20px;
     font-weight: bolder;
+    
+    
 }
 
 .total{
@@ -142,6 +146,7 @@ nav {
 .row{
     display: flex;
     text-align: center;
+    cursor: alias;
     
 }
 
@@ -194,4 +199,19 @@ nav {
 .liqour{
     display: flex;
     justify-content: space-between;
+}
+
+.A{
+    display: flex;
+    gap: 20px;
+    width: 100%;
+    margin-top: 20px;
+    
+}
+
+.A > img {
+    width: 150px;
+    height: 150px;
+    border-radius: 100%;
+
 }
